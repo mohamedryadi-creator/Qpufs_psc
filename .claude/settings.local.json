@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(jupyter nbconvert:*)",
+      "Bash(grep -n \"''.*\\\\\\\\ge[^q]\" generate_report.py)",
+      "Bash(grep -n '\"\".*\\\\\\\\\\\\\\\\ge[^q]' generate_report.py)"
+    ]
+  }
+}
